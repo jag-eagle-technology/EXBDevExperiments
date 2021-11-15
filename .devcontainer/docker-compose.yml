@@ -1,5 +1,13 @@
 version: "3.9"
 services:
+#   exb_webpack:
+#    image: jageagle/esri-exb:exb-1.6
+#    working_dir: /home/node/ArcGISExperienceBuilder/client/
+#    volumes:
+#        - ../widgets:/home/node/ArcGISExperienceBuilder/client/your-extensions/widgets/
+#        - ../themes:/home/node/ArcGISExperienceBuilder/client/your-extensions/themes/
+#        - ../public:/home/node/ArcGISExperienceBuilder/server/public/
+#    command: npm start
   exb:
    image: jageagle/esri-exb:exb-1.6
    ports:
@@ -9,5 +17,5 @@ services:
        - ../widgets:/home/node/ArcGISExperienceBuilder/client/your-extensions/widgets/
        - ../themes:/home/node/ArcGISExperienceBuilder/client/your-extensions/themes/
        - ../public:/home/node/ArcGISExperienceBuilder/server/public/
-       - ..:/workspace
-   command: npm start
+   command: bash -c "npm start & (cd ../client && npm start)"
+#    command: npm start
