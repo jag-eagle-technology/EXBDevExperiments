@@ -1,6 +1,6 @@
 {
     "dockerComposeFile": "docker-compose.yml",
-    "workspaceFolder": "/workspace",
+    "workspaceFolder": "/home/node/ArcGISExperienceBuilder",
     "service": "exb",
     "forwardPorts": [3000, 3001],
     "shutdownAction": "stopCompose"

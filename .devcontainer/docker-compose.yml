@@ -9,5 +9,5 @@ services:
        - ../widgets:/home/node/ArcGISExperienceBuilder/client/your-extensions/widgets/
        - ../themes:/home/node/ArcGISExperienceBuilder/client/your-extensions/themes/
        - ../public:/home/node/ArcGISExperienceBuilder/server/public/
-       - ..:/workspace:cached
+       - ..:/workspace
    command: npm start
