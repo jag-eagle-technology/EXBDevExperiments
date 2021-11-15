@@ -42,11 +42,11 @@
         "1": {
           "type": "WIDGET",
           "bbox": {
-            "left": "73.0%",
-            "right": "0.0%",
+            "left": "72.1%",
+            "right": "-0.1%",
             "top": "0.0%",
             "bottom": "0.0%",
-            "width": "27.0%",
+            "width": "28.0%",
             "height": "100.0%"
           },
           "widgetId": "widget_2",
@@ -56,8 +56,11 @@
               "left": true,
               "top": true,
               "bottom": false
-            }
-          }
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
         }
       },
       "order": [
@@ -67,7 +70,9 @@
     },
     "layout_1": {
       "type": "FIXED",
-      "label": "Map FixedLayout"
+      "label": "Map FixedLayout",
+      "content": {},
+      "order": []
     }
   },
   "exbVersion": "1.6.0",
@@ -173,5 +178,5 @@
       "page_0": []
     }
   ],
-  "timestamp": 1636898205196
+  "timestamp": 1636898911508
 }
